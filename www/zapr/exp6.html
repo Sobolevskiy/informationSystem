@@ -1,0 +1,79 @@
+﻿<html>
+<head> <!-- Техническая информация о документе -->
+  <title>ШЕСТОЕ</title>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="../includes/osnovnoy.css"/>>
+  <style type="text/css">
+    bt a {
+      text-decoration: none;
+      outline: none;
+      display: inline-block;
+      width: 70px;
+      height: 45px;
+      line-height: 45px;
+      border-radius: 45px;
+      margin: 10px 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 3px;
+      font-weight: 600;
+      color: rgb(193,162,72);
+      background: rgb(21,21,21);
+      box-shadow: 0 8px 15px rgba(0,0,0,.1);
+      transition: .3s;
+    }
+    bt a:hover {
+      background: rgb(193,162,72);
+      box-shadow: 0 15px 20px rgba(193,162,72,.4);
+      color: rgb(21,21,21);
+      transform: translateY(-7px);
+    }
+
+    .back {
+      position: absolute;
+      margin-top: 100px;
+      margin-left: 30px;
+    }
+
+    .divSend {
+      margin-top: 250px;
+      margin-left: calc(50% - 70px);
+    }
+
+    t {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header align = "center">
+    <div id="mainPoloska">
+      <div id="logo">
+       <a id="mainURL">VS</a>
+      </div>
+      <div id="mainText"> 
+        Шестое задание
+      </div>
+    </div>
+
+    <div class="back">
+      <bt><a href="?backButt" title="Возврат на шаг назад"><--</a>
+    </div>
+  </header>
+
+  <main>
+    <form action ="?nextPHP"   method=Post>
+    <div id="privetstvie">
+      Показывает <t>все сведения</t> о преподавателе, под руководством которого было больше всего проектов, защищенных <t>на отлично</t>.
+    </div>
+
+    <div class="divSend">
+      <input id="buttonSend" type=submit name=send value= Отправить>
+    </div>
+  </main>
+
+</body>  
+</html>

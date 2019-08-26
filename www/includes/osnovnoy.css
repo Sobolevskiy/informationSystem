@@ -1,0 +1,117 @@
+﻿#mainText {
+	margin-top: 30px;
+	font:30px Arial;
+	color: #B3B3B3;
+}
+
+#mainPoloska {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background-color: rgb(63,44,31);
+	z-index: 1;
+}
+
+#logo {
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 20px;
+	font:50px Arial;
+}
+
+#privetstvie {
+	padding: 20px;			/* Отступы внутреннего текста */
+	z-index: 5;
+	width: 400px;
+	height: 150px;
+	background-color: rgb(193,162,72);
+	font:24px Arial;
+	color: black;
+	margin: 0 auto;			/* Выравнивание по центру по горизонтали */
+	margin-top: 170px;
+	border-radius: 40px;	/* Скругление краёв */
+}
+
+#mainURL {
+	color: #B3B3B3;
+	text-decoration: none;
+}
+
+#butt1 {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: calc(25% - 70px);
+}
+
+#butt2 {
+	position: absolute;
+	margin-top: 190px;
+	margin-left: calc(25% - 70px);
+}
+
+#butt3 {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: calc(50% - 70px);
+}
+
+#butt4 {
+	position: absolute;
+	margin-top: 190px;
+	margin-left: calc(50% - 70px);
+}
+
+#butt5 {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: calc(75% - 70px);
+}
+
+#butt6 {
+	position: absolute;
+	margin-top: 190px;
+	margin-left: calc(75% - 70px);
+}
+
+#inp {
+	background-color: rgb(193,162,72);
+	border: 1px solid;
+	position: absolute;
+	margin-top: 300px;
+	margin-left: calc(50% - 200px);
+	width: 400px; 
+	height: 50px;
+	text-align: center;
+	border-radius: 45px;
+}
+
+#buttonSend {
+	/*text-decoration: none;*/
+    outline: none;
+	display: inline-block;
+	width: 140px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 45px;
+    /*margin: 10px 20px;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: rgb(193,162,72);
+    background: rgb(21,21,21);
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    /*transition: .3s;*/
+    border-style: none;
+}
+
+body{
+	/*background-image: URL(IMG_0977.JPG);*/
+	background-size: 100% 100%;
+    margin: 0;
+    background: #9F8962;/*#C5DDE8;linear-gradient(45deg, #EECFBA, #C5DDE8);*/
+}

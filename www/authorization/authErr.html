@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>Упс</title>
+	<link type="text/css" rel="stylesheet" href="../includes/newSite.css"/>
+	<style type="text/css">
+		#text1{
+			margin-top: 20%;
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
+			font-size: 30px;
+			color: white;
+			text-transform: uppercase;
+		}
+
+		#text2{
+			position: inherit;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: 'Roboto', sans-serif;
+			font-size: 25px;
+			color: rgb(229, 178, 65);
+		}
+
+		input {
+			margin-top: 20px;
+			margin-left: calc(50% - 75px);
+			width: 150px;
+			height: 50px;
+			background-color: rgb(229, 178, 65);
+			border-radius: 10px;
+			outline-style: none;
+			border-style: none;
+			color: #101010;
+			font-size: 15px;
+		}
+
+		input:hover {
+			background-color: #39509B;
+			font-size: 15px;
+		}
+
+	</style>
+</head>
+<body id="authFormBody">
+	<p id="text1">Ой, ваш логин или пароль неверны</p>
+	<p id="text2">попробуйте ещё раз</p>
+	<form action="?repeat" method="Post"> 
+		<input type="submit" value="Хорошо">
+	</form>	
+</body>
+</html>

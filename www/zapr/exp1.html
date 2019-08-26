@@ -1,0 +1,117 @@
+﻿<html>
+<head> <!-- Техническая информация о документе -->
+  <title>ПЕРВОЕ</title>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="../includes/osnovnoy.css"/>>
+  <style type="text/css">
+    bt a {
+      text-decoration: none;
+      outline: none;
+      display: inline-block;
+      width: 70px;
+      height: 45px;
+      line-height: 45px;
+      border-radius: 45px;
+      margin: 10px 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 3px;
+      font-weight: 600;
+      color: rgb(193,162,72);
+      background: rgb(21,21,21);
+      box-shadow: 0 8px 15px rgba(0,0,0,.1);
+      transition: .3s;
+    }
+    bt a:hover {
+      background: rgb(193,162,72);
+      box-shadow: 0 15px 20px rgba(193,162,72,.4);
+      color: rgb(21,21,21);
+      transform: translateY(-7px);
+    }
+
+    .field1 {
+      width: 400px;
+      height: 50px;
+      background-color: rgb(21,21,21);
+      border-radius: 45px;
+      outline-style: none;
+      border-style: none;
+      font-size: 2.5em;
+      box-shadow: 0 8px 15px rgba(21,21,21,0.99);
+      color: rgb(193,162,72);
+      text-align: center;
+    }
+
+    .div1 {
+      margin-top: 100px;
+      margin-left: calc(50% - 200px);
+    }
+
+    .div2 {
+      margin-top: 50px;
+    }
+
+    .back {
+      position: absolute;
+      margin-top: 100px;
+      margin-left: 30px;
+    }
+
+    .divSend {
+      margin-top: 50px;
+      margin-left: calc(25% - 70px);
+    }
+
+    .spanReset {
+      margin-left: 50%;
+    }
+
+    t {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header align = "center">
+    <div id="mainPoloska">
+      <div id="logo">
+       <a id="mainURL">VS</a>
+      </div>
+      <div id="mainText"> 
+        Первое задание
+      </div>
+    </div>
+
+    <div class="back">
+      <bt><a href="?backButt" title="Возврат на шаг назад"><--</a>
+    </div>
+  </header>
+
+  <main>
+    <form action ="?nextPHP"   method=Post>
+      <div id="privetstvie">
+        При вводе года составляет отчет о защитах проектов в указанном <t>месяце</t> и указанном <t>годе</t> по форме. 
+      </div>
+      <div class="div1">
+        <label>
+          <input class="field1" type=number name=nom required min="1" max="12" placeholder="Введите месяц">
+        </label>
+        <div class="div2">
+          <input class="field1" type=number name=nom1 min='1990' max='2020' required placeholder="Введите год">
+        </div>
+      </div>
+
+      <div class="divSend">
+        <input id="buttonSend" type=submit name=send value= Отправить>
+        <span class="spanReset">
+          <input id="buttonSend" type=reset   value= Очистить >
+        </span>
+      </div>
+    </form>  
+  </main>
+
+</body>  
+</html>

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Главное меню</title>
+	<link type="text/css" rel="stylesheet" href="../includes/newSite.css"/>
+</head>
+<body id="authFormBody">
+	<form action="?signOut" method="Post">
+		<button id="backButtonAll" type="submit">выйти</button>
+	</form>
+	<div id="headMenu">
+		<p id="headlineMini">меню</p>
+		<p id="headlineMenu">главная страница</p>
+	</div>
+
+	<table border="0" align="center">
+		<tr>
+		<td>
+			<div id="mainMenuBack">
+				<div id="miniBlock">
+					<div id="textZ1">Вы можете просмотреть уже созданные отчёты</div>
+					<form action="main.php" method="Post">
+						<button id="buttonH" type="submit" name="button1">Просмотр</button>
+					</form>
+				</div>
+			</div>
+		</td>
+		<td>
+			<div id="mainMenuBack">
+				<div id="miniBlock">
+					<div id="textZ1">Здесь вы можете создать нужные вам отчёты для просмотра успеваемости </div>
+					<form action="main.php" method="Post">
+						<button id="buttonH" type="submit" name="button2">Создать</button>
+					</form>
+				</div>
+			</div>
+		</td>
+		<td>
+			<div id="mainMenuBack">
+				<div id="miniBlock">
+					<div id="textZ1">Записать студента на защиту</div>
+					<form action="main.php" method="Post">
+						<button id="buttonH" type="submit" name="button3">Записать</button>
+					</form>
+				</div>
+			</div>
+		</td>
+		</tr>
+		<tr>
+			<td>
+				<div id="mainMenuBack">
+				<div id="miniBlock">
+					<div id="textZ1">Меню запросов</div>
+					<form action="main.php" method="Post">
+						<button id="buttonH" type="submit" name="button4">Перейти</button>
+					</form>
+				</div>
+				</div>
+			</td>
+			<td>
+				<div id="mainMenuBack">
+				<div id="miniBlock">
+					<div id="textZ1">Просмотр и редактирование списка записавшихся студентов</div>
+					<form action="?seeAll" method="Post">
+						<button id="buttonH" type="submit">Просмотр</button>
+					</form>
+				</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

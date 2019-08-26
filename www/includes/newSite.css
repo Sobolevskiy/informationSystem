@@ -1,0 +1,319 @@
+#authFormBody {
+	background: rgb(21,21,21);
+}
+
+#regField {
+	margin-top: 16%;
+}
+
+#enterFieldAuth {
+	width: 400px;
+	height: 50px;
+	background-color: rgb(21,21,21);
+	border-radius: 10px;
+	outline-style: none;
+	border: 1px solid #8a8a8a;
+	color: rgb(229, 178, 65);
+	text-align: center;
+	font-size: 15px;
+}
+
+#buttSubmitAuth {
+	width: 150px;
+	height: 50px;
+	background-color: rgb(229, 178, 65);
+	border-radius: 10px;
+	outline-style: none;
+	border-style: none;
+	color: #101010;
+	font-size: 15px;
+
+}
+
+#buttSubmitAuth:hover {
+	background-color: #39509B;
+	font-size: 15px;
+}
+
+#headline {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	color: white;
+}
+
+#headMenu {
+	margin-left: 13%;
+}
+
+#headlineMenu {
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	color: white;
+	text-transform: uppercase;
+	margin-top: -2%;
+}
+
+#headlineMini {
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: rgb(229, 178, 65);
+}
+
+#mainMenuBack {
+	float: left;
+	border-radius: 10px;
+	height: 230px;
+	width: 200px;
+	margin-top: 70px;
+	/*margin-left: 170px;*/
+	margin-left: 80px;
+	margin-right: 80px;
+	background-color: #F2CA70;
+	box-shadow: 0 0 20px #F2D493;
+}
+
+#buttonH {
+	border-style: none;
+	position: inherit;
+	text-align: center;
+	width: 70%;
+	border-radius: 20px;
+	height: 40px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 70px;
+	text-decoration: none;
+    outline: none;
+    display: inline-block;
+    background: #ff6e40;
+    color: #101010;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#buttonH:hover {
+	background: #3078A2;
+	color: #101010;
+}
+
+#textZ1 {
+	height: 70px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#tableZapros {
+	width: 50%;
+    font: 19px Arial;
+    border-radius: 45px;
+    margin-top: 90px;
+    text-align: center;
+    color: #101010;
+    background-color: #F2CA70;
+	box-shadow: 0 0 20px #F2D493;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#buttonInTable {
+	border-style: none;
+	position: inherit;
+	text-align: center;
+	width: 125px;
+	border-radius: 20px;
+	height: 40px;
+	/*margin-left: 15%;
+	margin-right: 15%;*/
+	text-decoration: none;
+    outline: none;
+    display: inline-block;
+    background: #ff6e40;
+    color: #101010;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#buttonInTable:hover {
+	background: #3078A2;
+	color: #101010;
+}
+
+#thForTable {
+	font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #175C5F;
+    font-size: 30px;
+}
+
+#tdForTable {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	color: #101010;
+}
+
+#backButton {
+	margin-top: 25px;
+	margin-left: 35px;
+	position: absolute;
+	border-style: none;
+	text-align: center;
+	width: 45px;
+	border-radius: 25px;
+	height: 45px;
+	text-decoration: none;
+    outline: none;
+    display: inline-block;
+    background-color: rgb(229, 178, 65);
+    color: #101010;
+    font-family: 'Roboto';
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#backButton:hover {
+	background-color: #39509B;
+	color: #101010;
+}
+
+#thCheck {
+	font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #101010;
+    font-size: 35px;
+}
+
+#thDATA {
+	font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #101010;
+    font-size: 30px;
+}
+
+#buttonInCheck {
+	border-style: none;
+	text-align: center;
+	width: 150px;
+	border-radius: 25px;
+	height: 52px;
+	text-decoration: none;
+    outline: none;
+    background-color: rgb(229, 178, 65);
+    color: #101010;
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#buttonInCheck:hover {
+	background-color: #39509B;
+	color: #101010;
+}
+
+#bottomButtons {
+	width: 100%;
+	margin-top: 30px;
+}
+
+#backButtonAll {
+	margin-top: 25px;
+	margin-left: 35px;
+	position: absolute;
+	border-style: none;
+	text-align: center;
+	width: 80px;
+	border-radius: 25px;
+	height: 45px;
+	text-decoration: none;
+    outline: none;
+    background-color: rgb(229, 178, 65);
+    color: #101010;
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#backButtonAll:hover {
+	background-color: #39509B;
+	color: #101010;
+}
+
+#thForAll {
+	font-family: Arial, sans-serif;
+	color: #175C5F;
+	font-weight: 500;
+	font-size: 25px;
+}
+
+#tdForAll {
+	font-family: Arial, sans-serif;
+	color: #101010;
+	font-size: 20px;
+}
+
+#tableZaprosAll {
+    border-radius: 45px;
+    margin-top: 90px;
+    text-align: center;
+    color: #101010;
+    background-color: #F2CA70;
+	box-shadow: 0 0 20px #F2D493;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#buttonInTableDel {
+	border-style: none;
+	position: inherit;
+	text-align: center;
+	width: 52px;
+	border-radius: 20px;
+	height: 40px;
+	text-decoration: none;
+    outline: none;
+    display: inline-block;
+    background: #ff6e40;
+    color: #101010;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#buttonInTableDel:hover {
+	background: #3078A2;
+	color: #101010;
+}
+
+#buttonInTableEdit {
+	border-style: none;
+	position: inherit;
+	text-align: center;
+	width: 70px;
+	border-radius: 20px;
+	height: 40px;
+	text-decoration: none;
+    outline: none;
+    display: inline-block;
+    background: #2DB36F;
+    color: #101010;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#buttonInTableEdit:hover {
+	background: #3078A2;
+	color: #101010;
+}
